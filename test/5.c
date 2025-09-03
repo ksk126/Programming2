@@ -17,9 +17,9 @@ void question5()
 	printf("n m 입력: ");
 	scanf("%d %d", &n, &m);
 
-	for (int i = n; i <= m; i++)
+	for (int i = n; i <= m; i++) //i는 n~m까지 i를 1씩 증가시키면서
 	{
-		result += i;
+		result += i; //result + i를 result에 저장
 	}
 
 	printf("결과: %d", result);

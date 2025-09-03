@@ -19,10 +19,10 @@ int question6()
 	printf("정수 입력: ");
 	scanf("%d", &n);
 
-	while (n > 0)
+	while (n > 0) //n이 0보다 클 때 반복
 	{
-		result += n % 10;
-		n /= 10;
+		result += n % 10; //result + n % 10을 result에 저장
+		n /= 10; //n을 10으로 나눈 몫을 n에 저장
 	}
 
 	return result;

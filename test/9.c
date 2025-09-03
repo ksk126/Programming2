@@ -36,14 +36,14 @@ int question9()
 	scanf("%d %d %d",
 		&b[2][0], &b[2][1], &b[2][2]);
 
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < 3; i++) //i는 0~2까지 i를 1씩 증가시키면서
 	{
-		for (int j = 0; j < 3; j++)
+		for (int j = 0; j < 3; j++) //j는 0~2까지 j를 1씩 증가시키면서
 		{
-			result[i][j] = a[i][j] + b[i][j];
-			printf("%d ", result[i][j]);
+			result[i][j] = a[i][j] + b[i][j]; //result배열의 i열 j행에 a배열의 i열 j행과 b배열의 i열 j행을 더한 값 저장
+			printf("%d ", result[i][j]); //result배열의 i열 j행 값 출력
 		}
-		printf("\n");
+		printf("\n"); //줄바꿈
 	}
 
 	return 0;
