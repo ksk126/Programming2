@@ -1,3 +1,10 @@
+/*
+파일명: assignment12
+내용: 기차표 예매 프로그램. 좌석은 모두 10개고 O이면 예매 가능, X이면 예매 불가를 의미한다. 더이상 예매할 수 없으면 프로그램을 종료.
+작성자: 김수경
+날짜:26.09.16
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define SIZE 10

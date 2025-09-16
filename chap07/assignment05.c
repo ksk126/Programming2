@@ -1,3 +1,10 @@
+/*
+파일명: assignment05
+내용: 특정 값으로 초기화된 정수형 배열에 대하여 사용자가 입력한 값을 배열의 끝에서부터 역순으로 찾아서 찾은 원소의 인덱스를 출력하는 프로그램을 작성하시오.
+작성자: 김수경
+날짜:26.09.16
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
