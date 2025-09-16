@@ -1,3 +1,10 @@
+/*
+파일명: assignment16
+내용: 정수형 배열과 키 값을 매개변수로 전달받아 배열에서 키 값을 찾아 인덱스를 리턴하는 find_array 함수를 작성하시오. 키 값을 찾을 수 없으면 -1을 리턴한다.
+작성자: 김수경
+날짜:26.09.16
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
