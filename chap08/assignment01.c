@@ -27,4 +27,6 @@ void print(double* p)
 	{
 		printf("x[%d]¿« ¡÷º“: %p\n", i, (void*)&p[i]);
 	}
+
+	return;
 }
